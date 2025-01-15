@@ -1,0 +1,74 @@
+body{
+    margin: auto;
+    background-color: #CAC4CE;
+}
+.h1{
+    color: #CAC4CE;
+}
+.h1-div{
+    background-color: #242038;
+    width: 100%;
+    text-align: center;
+}
+.img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border: 2px solid #CAC4CE;
+    border-radius: 100%;
+}
+.img-div{
+    display: flex;
+    gap: 20px;
+}
+.img:hover{
+    border: 10px solid #242038;
+    cursor: pointer;
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: px;
+}
+.player-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.player-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.result-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 20px;
+}
+.p1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.p2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.msg{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 5px;
+}
+.msg-div{
+    width: 500px;
+    margin: auto;
+}
